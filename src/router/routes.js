@@ -10,12 +10,18 @@ import Icons from "@/pages/Icons.vue";
 import Maps from "@/pages/Maps.vue";
 import Typography from "@/pages/Typography.vue";
 import TableList from "@/pages/TableList.vue";
+import Login from '@/layout/login/Login.vue'
 
 const routes = [
   {
     path: "/",
+    name: 'login',
+    component: Login
+  },
+  {
+    path: '/dashboard',
+    name: 'dashboard',
     component: DashboardLayout,
-    redirect: "/dashboard",
     children: [
       {
         path: "dashboard",

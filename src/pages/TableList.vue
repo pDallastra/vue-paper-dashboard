@@ -27,42 +27,42 @@
 </template>
 <script>
 import { PaperTable } from "@/components";
-const tableColumns = ["Id", "Name", "Salary", "Country", "City"];
+const tableColumns = ["OS", "Cliente", "Descrição", "Processo", "Bisnaga"];
 const tableData = [
   {
-    id: 1,
-    name: "Dakota Rice",
-    salary: "$36.738",
-    country: "Niger",
-    city: "Oud-Turnhout",
+    os: 1,
+    cliente: "Dakota Rice",
+    descrição: "$40.000",
+    processo: "Niger",
+    bisnaga: "Oud-Turnhout"
   },
   {
-    id: 2,
-    name: "Minerva Hooper",
-    salary: "$23,789",
-    country: "Curaçao",
-    city: "Sinaai-Waas",
+    os: 2,
+    cliente: "Minerva Hooper",
+    descrição: "$23,789",
+    processo: "Curaçao",
+    bisnaga: "Sinaai-Waas",
   },
   {
-    id: 3,
-    name: "Sage Rodriguez",
-    salary: "$56,142",
-    country: "Netherlands",
-    city: "Baileux",
+    os: 3,
+    cliente: "Sage Rodriguez",
+    descrição: "$56,142",
+    processo: "Netherlands",
+    bisnaga: "Baileux",
   },
   {
-    id: 4,
-    name: "Philip Chaney",
-    salary: "$38,735",
-    country: "Korea, South",
-    city: "Overland Park",
+    os: 4,
+    cliente: "Philip Chaney",
+    descrição: "$38,735",
+    processo: "Korea, South",
+    bisnaga: "Overland Park",
   },
   {
-    id: 5,
-    name: "Doris Greene",
-    salary: "$63,542",
-    country: "Malawi",
-    city: "Feldkirchen in Kärnten",
+    os: 5,
+    cliente: "Doris Greene",
+    descrição: "$63,542",
+    processo: "Malawi",
+    bisnaga: "Feldkirchen in Kärnten",
   },
 ];
 

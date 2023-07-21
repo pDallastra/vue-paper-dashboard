@@ -16,14 +16,20 @@
 import Vue from "vue";
 import App from "./App";
 import router from "./router/index";
+import Vuex from 'vuex'
+import rootStore from './store/store.js';
 
 import PaperDashboard from "./plugins/paperDashboard";
 import "vue-notifyjs/themes/default.css";
 
+Vue.use(Vuex);
 Vue.use(PaperDashboard);
+
+const store = new Vuex.Store(rootStore);
 
 /* eslint-disable no-new */
 new Vue({
   router,
   render: (h) => h(App),
+  store
 }).$mount("#app");
